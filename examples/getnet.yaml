@@ -1,0 +1,25 @@
+servico: conciliacao getnet
+layout: getnet
+versao: 10
+id: 'identifier'
+
+dados:
+  header:
+    identifier:
+      pos: [1,1]
+      value: 0
+    dt_criacao:
+      pos: [2,9]
+      picture: 'D'
+      pattern: 'DDMMYYYY'
+    estabelecimento:
+      pos: [32, 46]
+      picture: 'X(15)'
+  resumo_venda:
+    identifier:
+      pos: [1,1]
+      value: 1
+    indicador_pagamento:
+      pos: [169,170]
+      picture: 'X(2)'
+      pattern: ''
